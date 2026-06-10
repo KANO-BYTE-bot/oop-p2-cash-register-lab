@@ -1,8 +1,30 @@
-# Object Oriented Programming (OOP) Part 2 - Cash Register Lab
+# Cash Register Lab
 
-Now that we’ve discussed more about object oriented design philosophies and techniques like decorators we will be looking at building more complex objects. In this case we will be building a cash register object to simulate different functions of a cash register for an e-commerce site. 
+This project models a simple cash register using object-oriented Python. It supports adding items, applying discounts, and voiding the most recent transaction.
 
-## Tools & Resources
+## Features
+
+- Initialize a cash register with an optional discount percentage.
+- Add items with optional quantities and keep a running total.
+- Apply a discount to the current total and print the updated amount.
+- Void the most recent transaction and adjust the total and item history.
+
+## Project Snapshot
+
+![Cash register example](docs/cash-register-demo.svg)
+
+## Usage
+
+Run the tests with the project environment:
+
+```bash
+python -m pytest -q
+```
+
+You can also explore the implementation in [lib/cash_register.py](lib/cash_register.py).
+
+## Resources
+
 * [GitHub Repo](https://github.com/learn-co-curriculum/oop-p2-cash-register-lab)
 * [Python Classes](https://docs.python.org/3/tutorial/classes.html)
 
